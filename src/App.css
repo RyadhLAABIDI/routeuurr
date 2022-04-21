@@ -1,38 +1,82 @@
 .App {
   text-align: center;
+  background-image:url("https://ichef.bbc.co.uk/images/ic/640x360/p05ty0x6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Logo {
+  margin-right: 1300px;
+  position:fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style: none;
+  color:white;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+Nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  align-items: baseline;
+  list-style: circle;
+  background-color:rgb(27, 27, 124);
+  padding: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+  position: sticky;
+  top:0px;
+}
+.login{
+  border: 1px solid white;
+  width: 100px;
+  padding: 5px 20px;
+  margin-left: 5px;
+background-color: #49212e;
   color: white;
+  border-radius: 6px;
+  font-size: 15px;
+  text-decoration: none;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.Movies{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Movie{
+  width: 30%;
+  margin: 25px;
+  padding:25px;
+  background-color: whitesmoke;
+
+}
+.Movie img{
+  height:300px;
+}
+.Movie h3:hover {
+background-color: lightgray;
+cursor:pointer;
+}
+.Movie h5:hover {
+  background-color: lightgray;
+cursor:pointer;
+}
+.AboutUs img{
+  height:500px;
+  margin:50px;
+  background-color: whitesmoke;
+  
+}
+.User img{
+  height:300px
+}
+.Footer img{
+  
+  width: 100%;
+  border: 1px solid blue;
+  
 }
